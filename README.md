@@ -17,8 +17,8 @@ Latest release: [`v0.1.0`](https://github.com/CrimsonDawnOrg/StarFabExtract-RELE
 
 | File | Description |
 |------|-------------|
-| `StarFabExtract-0.1.0-windows-amd64-installer.exe` | NSIS installer (recommended). Adds Start Menu entry + auto-update. |
-| `StarFabExtract-0.1.0-windows-amd64.exe` | Portable executable. Run from anywhere. |
+| `StarFabExtract-0.1.1-windows-amd64-installer.exe` | NSIS installer (recommended). Adds Start Menu entry + auto-update. |
+| `StarFabExtract-0.1.1-windows-amd64.exe` | Portable executable. Run from anywhere. |
 
 **System requirements:** Windows 10 / 11 (x64), WebView2 runtime
 (pre-installed on Windows 11; auto-installed by the installer on
@@ -65,13 +65,13 @@ Windows 10).
 ## Installation
 
 ### Installer (recommended)
-1. Download `StarFabExtract-0.1.0-windows-amd64-installer.exe`.
+1. Download `StarFabExtract-0.1.1-windows-amd64-installer.exe`.
 2. Run it — installs to `%LOCALAPPDATA%\Programs\StarFabExtract` (no
    admin rights needed).
 3. Launch from the Start Menu.
 
 ### Portable
-1. Download `StarFabExtract-0.1.0-windows-amd64.exe`.
+1. Download `StarFabExtract-0.1.1-windows-amd64.exe`.
 2. Place it in any folder and double-click.
 3. The Python sidecar is bundled inside the EXE.
 
@@ -90,17 +90,17 @@ Windows 10).
 
 ## Verifying downloads
 
-SHA-256 checksums for v0.1.0:
+SHA-256 checksums for v0.1.1:
 
 ```
-11C9DC76F9556D49B22A634538228842C032AF873BA63EBBF0D271DD786DC395  StarFabExtract-0.1.0-windows-amd64-installer.exe
-510BEAEA9AA734A2BA6C84CA63C566D82429C5C36C62CA1D939D86CEFB958B5F  StarFabExtract-0.1.0-windows-amd64.exe
+8725FB6591D8BB91FD47617A9183CB3CA55FF6F5DF82CF3E0FAC52E99AAA4BB4  StarFabExtract-0.1.1-windows-amd64-installer.exe
+C1233DD3E2021532DF4DBD80CD110D3626A8B641F938877FF8B2DC74BF355F7C  StarFabExtract-0.1.1-windows-amd64.exe
 ```
 
 Verify in PowerShell:
 
 ```powershell
-Get-FileHash .\StarFabExtract-0.1.0-windows-amd64-installer.exe -Algorithm SHA256
+Get-FileHash .\StarFabExtract-0.1.1-windows-amd64-installer.exe -Algorithm SHA256
 ```
 
 ---
